@@ -12,7 +12,7 @@ export const validationSchema = () =>{
     return Yup.object({
         email: Yup.string()
         .email("Email invalido")
-        .required("Email obligatorio"),
+        .required("Email obligatoriooooooo"),
         password: Yup.string().required("Contraseña obligatorio"),
         confirmPassword: Yup.string()
         .required("Contraseña obligatorio")
